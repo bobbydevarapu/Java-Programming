@@ -2,16 +2,10 @@ package Basic.LogicalPattern;
 
 import java.util.Scanner;
 
-public class Pattern1 {
-
-  public static void PatternPrint1(int n) {
-    if (n <= 0) {
-      System.out.println("Please enter a positive integer.");
-      return;
-    }
-
+public class Pattern2 {
+  public static void PatternPrint2(int n) {
     for (int i = 0; i < n; i++) {
-      for (int j = 0; j < n; j++) {
+      for (int j = 0; j <= i; j++) {
         System.out.print("*");
       }
       System.out.println();
@@ -20,11 +14,10 @@ public class Pattern1 {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-
     System.out.print("Enter a number: ");
     int n = sc.nextInt();
-
-    PatternPrint1(n);
+    PatternPrint2(n);
     sc.close();
   }
+
 }
