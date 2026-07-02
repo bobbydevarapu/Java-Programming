@@ -1,123 +1,109 @@
 # Java Basics to Advanced
 
-This repository is a daily Java practice track. Each program is added only after it runs successfully, and progress is organized as a clear learning roadmap from fundamentals to advanced topics.
+This repository is organized as a clean Java learning path with a premium-style roadmap layout. The focus is on topics, not daily tracking, and the README is meant to quickly show what is covered in Basics, OOPs, DSA, and Advanced Java.
 
-## Learning Roadmap
+## Learning Path
 
-### 1) Java Fundamentals
-- Java setup and first program
-- Variables and data types
-- Type casting
-- Constants and naming rules
-- Operators and expressions
-- Input and output
-- Comments and code style
+| Section | What It Covers | Goal |
+| --- | --- | --- |
+| Basics | Setup, first program, variables, data types, casting, constants, operators, input/output, comments, control flow, strings, arrays, exceptions, and pattern practice | Build a strong Java foundation |
+| OOPs | Classes, objects, constructors, `this`, `static`, inheritance, method overriding, polymorphism, abstraction, interfaces, encapsulation, composition | Learn real-world Java design |
+| DSA | Complexity, arrays, strings, hashing, recursion, sorting, searching, stacks, queues, linked lists, trees, heaps, graphs, dynamic programming | Solve problems efficiently |
+| Advanced Java | Collections, generics, custom exceptions, file handling, multithreading, lambda, streams, date/time API | Move into advanced Java development |
+| Projects | Mini projects, reusable code, debugging, testing mindset, folder organization | Turn knowledge into working programs |
 
-### 2) Control Flow and Logic Building
-- `if`, `if-else`, `if-else-if`
-- `switch` statements
-- Loops (`for`, `while`, `do-while`)
-- Pattern of repetition and counting
-- Small logic problems (sum, character extraction, print patterns)
+## Basics Topics
 
-### 3) Core Data Handling
-- Strings and string operations
-- Arrays and indexing
-- Basic data manipulation
-- Edge case thinking and validation
-
-### 4) Error Handling and Program Safety
-- `try-catch` basics
-- Handling runtime exceptions
-- Writing safe input logic
-
-### 5) Next Intermediate Java Topics
-- Methods and parameter passing
-- Functions with return types
-- Scope and lifecycle of variables
-- Classes and objects
-- Constructors and `this`
-- Access modifiers and encapsulation
-- Static members and utility classes
-
-### 6) Object-Oriented Programming Track
-- Inheritance (`extends`)
-- Method overriding
-- Polymorphism
-- Abstraction (`abstract` classes)
-- Interfaces
-- Composition vs inheritance
-
-### 7) Advanced Java Track
-- Exception hierarchy and custom exceptions
-- Collections Framework (`List`, `Set`, `Map`, `Queue`)
-- Generics
-- File handling (`java.io`, `java.nio`)
-- Multithreading and synchronization
-- Lambda expressions and Stream API
-- Date and time API
-
-### 8) Problem Solving and DSA with Java
-- Time and space complexity basics
-- Arrays, strings, hashing
-- Recursion and backtracking
-- Sorting and searching
-- Stack, queue, linked list
-- Trees, heaps, graphs
-- Dynamic programming fundamentals
-
-### 9) Build and Project Skills
-- Clean folder organization
-- Writing reusable classes
-- Debugging practice
-- Basic testing mindset
-- Mini project development
-
-## What Is Already Included (Current Basics Folder)
-
-The following topics are already covered through daily programs:
-
-| Topic | Program File |
+| Topic | Files |
 | --- | --- |
-| Hello World | `Basics/HelloWorld.java` |
-| Variables | `Basics/Variables.java` |
-| Constants | `Basics/Constants.java` |
-| Type Casting | `Basics/TypeCasting.java` |
-| Operators | `Basics/Operators.java` |
-| Input/Output | `Basics/InputOutput.java` |
-| Comments | `Basics/Comments.java` |
-| Strings | `Basics/Strings.java` |
-| Arrays | `Basics/ArrayExample.java` |
-| If-Else-If | `Basics/IfElseIf.java` |
-| Switch Case | `Basics/SwitchCase.java` |
-| Loops | `Basics/Loops.java` |
-| Print N Times | `Basics/PrintingNtimes.java` |
-| Print Last Character | `Basics/PrintLastCharacter.java` |
-| Sum of First and Last | `Basics/SumOfFirstLast.java` |
-| Exception Handling | `Basics/ExceptionHandling.java` |
-| Age-based logic | `Basics/Age.java` |
+| Hello World | [Basic/LanguageBasics/HelloWorld.java](Basic/LanguageBasics/HelloWorld.java) |
+| Variables | [Basic/LanguageBasics/Variables.java](Basic/LanguageBasics/Variables.java) |
+| Constants | [Basic/LanguageBasics/Constants.java](Basic/LanguageBasics/Constants.java) |
+| Type Casting | [Basic/LanguageBasics/TypeCasting.java](Basic/LanguageBasics/TypeCasting.java) |
+| Operators | [Basic/LanguageBasics/Operators.java](Basic/LanguageBasics/Operators.java) |
+| Input and Output | [Basic/LanguageBasics/InputOutput.java](Basic/LanguageBasics/InputOutput.java) |
+| Comments | [Basic/LanguageBasics/Comments.java](Basic/LanguageBasics/Comments.java) |
+| Strings | [Basic/LanguageBasics/Strings.java](Basic/LanguageBasics/Strings.java) |
+| Arrays | [Basic/LanguageBasics/ArrayExample.java](Basic/LanguageBasics/ArrayExample.java) |
+| If-Else-If | [Basic/LanguageBasics/IfElseIf.java](Basic/LanguageBasics/IfElseIf.java) |
+| Switch Case | [Basic/LanguageBasics/SwitchCase.java](Basic/LanguageBasics/SwitchCase.java) |
+| Loops | [Basic/LanguageBasics/Loops.java](Basic/LanguageBasics/Loops.java) |
+| Print N Times | [Basic/LanguageBasics/PrintingNtimes.java](Basic/LanguageBasics/PrintingNtimes.java) |
+| Print Last Character | [Basic/LanguageBasics/PrintLastCharacter.java](Basic/LanguageBasics/PrintLastCharacter.java) |
+| Sum of First and Last | [Basic/LanguageBasics/SumOfFirstLast.java](Basic/LanguageBasics/SumOfFirstLast.java) |
+| Exception Handling | [Basic/LanguageBasics/ExceptionHandling.java](Basic/LanguageBasics/ExceptionHandling.java) |
+| Age-based Logic | [Basic/LanguageBasics/Age.java](Basic/LanguageBasics/Age.java) |
 
+## Pattern Practice
 
-## Daily Update Rules
+| Topic | File |
+| --- | --- |
+| Pattern 1 | [Basic/LogicalPattern/Pattern1.java](Basic/LogicalPattern/Pattern1.java) |
+| Pattern 2 | [Basic/LogicalPattern/Pattern2.java](Basic/LogicalPattern/Pattern2.java) |
+| Pattern 3 | [Basic/LogicalPattern/Pattern3.java](Basic/LogicalPattern/Pattern3.java) |
 
-- Add one completed program at a time.
-- Keep entries short and accurate.
-- Only add a file after compile/run verification.
-- Use this README as your roadmap + progress tracker.
+## OOPs Topics
+
+| Topic | What You Learn |
+| --- | --- |
+| Classes and Objects | Writing reusable blueprints and creating objects |
+| Constructors | Initializing object state cleanly |
+| `this` Keyword | Resolving field and parameter confusion |
+| `static` Members | Sharing data and behavior across objects |
+| Inheritance | Reusing and extending existing classes |
+| Method Overriding | Custom behavior in child classes |
+| Polymorphism | One interface, many forms |
+| Abstraction | Hiding implementation details |
+| Interfaces | Defining contracts for behavior |
+| Encapsulation | Protecting data with access control |
+| Composition | Building complex objects from simpler ones |
+
+## DSA Topics
+
+| Topic | What You Learn |
+| --- | --- |
+| Complexity Analysis | Time and space tradeoffs |
+| Arrays | Traversal, updates, and subarray logic |
+| Strings | Character processing and string patterns |
+| Hashing | Fast lookup and frequency counting |
+| Recursion | Breaking problems into smaller calls |
+| Sorting | Ordering data efficiently |
+| Searching | Finding elements quickly |
+| Stack | LIFO behavior and problem solving |
+| Queue | FIFO behavior and scheduling logic |
+| Linked List | Node-based data structure handling |
+| Trees | Hierarchical data and traversal |
+| Heaps | Priority-based selection |
+| Graphs | Node-edge relationships and traversal |
+| Dynamic Programming | Overlapping subproblems and optimization |
+
+## Advanced Java Topics
+
+| Topic | What You Learn |
+| --- | --- |
+| Collections Framework | `List`, `Set`, `Map`, and `Queue` |
+| Generics | Type-safe reusable code |
+| Custom Exceptions | Creating domain-specific error handling |
+| File Handling | Reading and writing files with Java APIs |
+| Multithreading | Running tasks concurrently |
+| Synchronization | Controlling shared access safely |
+| Lambda Expressions | Concise function-style code |
+| Streams | Functional-style data processing |
+| Date and Time API | Working with modern time classes |
 
 ## How To Run
 
 Compile and run from the repository root:
 
 ```bash
-javac Basics/HelloWorld.java
-java -cp Basics HelloWorld
+javac Basic/LanguageBasics/HelloWorld.java
+java -cp Basic/LanguageBasics HelloWorld
 ```
 
-Or run from inside `Basics`:
+Or run from inside `Basic/LanguageBasics`:
 
 ```bash
-cd Basics
+cd Basic/LanguageBasics
 javac HelloWorld.java
 java HelloWorld
 ```
