@@ -1,3 +1,5 @@
+package Basic.LanguageBasics;
+
 import java.util.*;
 
 public class ArrayExample {

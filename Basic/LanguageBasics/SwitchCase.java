@@ -1,3 +1,5 @@
+package Basic.LanguageBasics;
+
 import java.util.Scanner;
 
 class SwitchUtility {
@@ -36,6 +38,6 @@ public class SwitchCase {
     System.out.print("Enter a Day: ");
     int day = sc.nextInt();
     SwitchUtility.printDay(day);
-
+    sc.close();
   }
 }

@@ -1,3 +1,5 @@
+package Basic.LanguageBasics;
+
 public class Loops {
   public static void main(String[] args) {
 

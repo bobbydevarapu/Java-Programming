@@ -1,3 +1,5 @@
+package Basic.LanguageBasics;
+
 public class Strings {
   public static void main(String[] args) {
 

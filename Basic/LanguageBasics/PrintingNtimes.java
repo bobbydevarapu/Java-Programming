@@ -1,3 +1,5 @@
+package Basic.LanguageBasics;
+
 import java.util.Scanner;
 
 public class PrintingNtimes {
