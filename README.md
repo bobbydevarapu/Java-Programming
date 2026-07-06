@@ -1,97 +1,147 @@
-# Java Basics to Advanced
+# Java Learning Roadmap: Zero to Advanced
 
-This repository is organized as a clean Java learning path with a premium-style roadmap layout. The focus is on topics, not daily tracking, and the README is meant to quickly show what is covered in Basics, OOPs, DSA, and Advanced Java.
+A comprehensive Java learning repository covering fundamental concepts to advanced topics with clean, organized code examples.
 
-## Learning Path
+---
 
-| Section | What It Covers | Goal |
-| --- | --- | --- |
-| Basics | Setup, first program, variables, data types, casting, constants, operators, input/output, comments, control flow, strings, arrays, exceptions, and pattern practice | Build a strong Java foundation |
-| OOPs | Classes, objects, constructors, `this`, `static`, inheritance, method overriding, polymorphism, abstraction, interfaces, encapsulation, composition | Learn real-world Java design |
-| DSA | Complexity, arrays, strings, hashing, recursion, sorting, searching, stacks, queues, linked lists, trees, heaps, graphs, dynamic programming | Solve problems efficiently |
-| Advanced Java | Collections, generics, custom exceptions, file handling, multithreading, lambda, streams, date/time API | Move into advanced Java development |
-| Projects | Mini projects, reusable code, debugging, testing mindset, folder organization | Turn knowledge into working programs |
+## Roadmap Overview
 
-## Basics Topics
+```
+Basics (Foundation)
+├── Language Fundamentals
+├── Control Flow & Loops
+├── Object Creation Basics
+└── Pattern Practice
 
-| Topic | Files |
-| --- | --- |
-| Hello World | [Basic/LanguageBasics/HelloWorld.java](Basic/LanguageBasics/HelloWorld.java) |
-| Variables | [Basic/LanguageBasics/Variables.java](Basic/LanguageBasics/Variables.java) |
-| Constants | [Basic/LanguageBasics/Constants.java](Basic/LanguageBasics/Constants.java) |
-| Type Casting | [Basic/LanguageBasics/TypeCasting.java](Basic/LanguageBasics/TypeCasting.java) |
-| Operators | [Basic/LanguageBasics/Operators.java](Basic/LanguageBasics/Operators.java) |
-| Input and Output | [Basic/LanguageBasics/InputOutput.java](Basic/LanguageBasics/InputOutput.java) |
-| Comments | [Basic/LanguageBasics/Comments.java](Basic/LanguageBasics/Comments.java) |
-| Strings | [Basic/LanguageBasics/Strings.java](Basic/LanguageBasics/Strings.java) |
-| Arrays | [Basic/LanguageBasics/ArrayExample.java](Basic/LanguageBasics/ArrayExample.java) |
-| If-Else-If | [Basic/LanguageBasics/IfElseIf.java](Basic/LanguageBasics/IfElseIf.java) |
-| Switch Case | [Basic/LanguageBasics/SwitchCase.java](Basic/LanguageBasics/SwitchCase.java) |
-| Loops | [Basic/LanguageBasics/Loops.java](Basic/LanguageBasics/Loops.java) |
-| Print N Times | [Basic/LanguageBasics/PrintingNtimes.java](Basic/LanguageBasics/PrintingNtimes.java) |
-| Print Last Character | [Basic/LanguageBasics/PrintLastCharacter.java](Basic/LanguageBasics/PrintLastCharacter.java) |
-| Sum of First and Last | [Basic/LanguageBasics/SumOfFirstLast.java](Basic/LanguageBasics/SumOfFirstLast.java) |
-| Exception Handling | [Basic/LanguageBasics/ExceptionHandling.java](Basic/LanguageBasics/ExceptionHandling.java) |
-| Age-based Logic | [Basic/LanguageBasics/Age.java](Basic/LanguageBasics/Age.java) |
+↓
 
-## Pattern Practice
+OOPs (Real-World Design)
+├── Classes & Objects
+├── Inheritance & Polymorphism
+├── Abstraction & Interfaces
+└── Encapsulation & Composition
+
+↓
+
+DSA (Problem Solving)
+├── Arrays & Strings
+├── Sorting & Searching
+├── Stacks & Queues
+├── Trees & Graphs
+└── Dynamic Programming
+
+↓
+
+Advanced Java (Professional Tools)
+├── Collections Framework
+├── Generics & Type Safety
+├── Multithreading & Concurrency
+├── File I/O & Streams
+└── Modern Java APIs
+```
+
+---
+
+## 1. BASICS - Foundation
+
+### Language Fundamentals
 
 | Topic | File |
 | --- | --- |
-| Pattern 1 | [Basic/LogicalPattern/Pattern1.java](Basic/LogicalPattern/Pattern1.java) |
-| Pattern 2 | [Basic/LogicalPattern/Pattern2.java](Basic/LogicalPattern/Pattern2.java) |
-| Pattern 3 | [Basic/LogicalPattern/Pattern3.java](Basic/LogicalPattern/Pattern3.java) |
+| Hello World | [Basic/LanguageBasics/HelloWorld.java](Basic/LanguageBasics/HelloWorld.java) |
+| Variables & Data Types | [Basic/LanguageBasics/Variables.java](Basic/LanguageBasics/Variables.java) |
+| Constants | [Basic/LanguageBasics/Constants.java](Basic/LanguageBasics/Constants.java) |
+| Type Casting | [Basic/LanguageBasics/TypeCasting.java](Basic/LanguageBasics/TypeCasting.java) |
+| Operators | [Basic/LanguageBasics/Operators.java](Basic/LanguageBasics/Operators.java) |
+| Input & Output | [Basic/LanguageBasics/InputOutput.java](Basic/LanguageBasics/InputOutput.java) |
+| Comments | [Basic/LanguageBasics/Comments.java](Basic/LanguageBasics/Comments.java) |
 
-## OOPs Topics
+### Control Flow & Collections
+
+| Topic | File |
+| --- | --- |
+| If-Else-If | [Basic/LanguageBasics/IfElseIf.java](Basic/LanguageBasics/IfElseIf.java) |
+| Switch Case | [Basic/LanguageBasics/SwitchCase.java](Basic/LanguageBasics/SwitchCase.java) |
+| Loops | [Basic/LanguageBasics/Loops.java](Basic/LanguageBasics/Loops.java) |
+| Arrays | [Basic/LanguageBasics/ArrayExample.java](Basic/LanguageBasics/ArrayExample.java) |
+| Strings | [Basic/LanguageBasics/Strings.java](Basic/LanguageBasics/Strings.java) |
+
+### Exception Handling & Practice
+
+| Topic | File |
+| --- | --- |
+| Exception Handling | [Basic/LanguageBasics/ExceptionHandling.java](Basic/LanguageBasics/ExceptionHandling.java) |
+| Problem Solving - Age Logic | [Basic/LanguageBasics/Age.java](Basic/LanguageBasics/Age.java) |
+| Problem Solving - Print N Times | [Basic/LanguageBasics/PrintingNtimes.java](Basic/LanguageBasics/PrintingNtimes.java) |
+| Problem Solving - Last Character | [Basic/LanguageBasics/PrintLastCharacter.java](Basic/LanguageBasics/PrintLastCharacter.java) |
+| Problem Solving - Sum of First & Last | [Basic/LanguageBasics/SumOfFirstLast.java](Basic/LanguageBasics/SumOfFirstLast.java) |
+
+### Pattern Practice (Logical Thinking)
+
+| Patterns | Files |
+| --- | --- |
+| Patterns 1-22 | [Basic/LogicalPattern/](Basic/LogicalPattern/) |
+
+---
+
+## 2. OOPs - Real-World Design
 
 | Topic | What You Learn |
 | --- | --- |
-| Classes and Objects | Writing reusable blueprints and creating objects |
-| Constructors | Initializing object state cleanly |
-| `this` Keyword | Resolving field and parameter confusion |
-| `static` Members | Sharing data and behavior across objects |
-| Inheritance | Reusing and extending existing classes |
-| Method Overriding | Custom behavior in child classes |
-| Polymorphism | One interface, many forms |
-| Abstraction | Hiding implementation details |
-| Interfaces | Defining contracts for behavior |
-| Encapsulation | Protecting data with access control |
-| Composition | Building complex objects from simpler ones |
+| **Classes & Objects** | Creating blueprints and instantiating objects |
+| **Constructors** | Initializing object state cleanly |
+| **`this` Keyword** | Referencing instance members and avoiding confusion |
+| **`static` Members** | Sharing data and methods across all objects |
+| **Inheritance** | Extending classes and reusing code |
+| **Method Overriding** | Customizing behavior in child classes |
+| **Polymorphism** | One interface, multiple implementations |
+| **Abstraction** | Hiding implementation details with abstract classes |
+| **Interfaces** | Defining contracts for behavior |
+| **Encapsulation** | Protecting data with access modifiers |
+| **Composition** | Building complex objects from simpler ones |
 
-## DSA Topics
+---
 
-| Topic | What You Learn |
-| --- | --- |
-| Complexity Analysis | Time and space tradeoffs |
-| Arrays | Traversal, updates, and subarray logic |
-| Strings | Character processing and string patterns |
-| Hashing | Fast lookup and frequency counting |
-| Recursion | Breaking problems into smaller calls |
-| Sorting | Ordering data efficiently |
-| Searching | Finding elements quickly |
-| Stack | LIFO behavior and problem solving |
-| Queue | FIFO behavior and scheduling logic |
-| Linked List | Node-based data structure handling |
-| Trees | Hierarchical data and traversal |
-| Heaps | Priority-based selection |
-| Graphs | Node-edge relationships and traversal |
-| Dynamic Programming | Overlapping subproblems and optimization |
-
-## Advanced Java Topics
+## 3. DSA - Problem Solving & Algorithms
 
 | Topic | What You Learn |
 | --- | --- |
-| Collections Framework | `List`, `Set`, `Map`, and `Queue` |
-| Generics | Type-safe reusable code |
-| Custom Exceptions | Creating domain-specific error handling |
-| File Handling | Reading and writing files with Java APIs |
-| Multithreading | Running tasks concurrently |
-| Synchronization | Controlling shared access safely |
-| Lambda Expressions | Concise function-style code |
-| Streams | Functional-style data processing |
-| Date and Time API | Working with modern time classes |
+| **Complexity Analysis** | Understanding Time and Space tradeoffs |
+| **Arrays** | Traversal, manipulation, searching, subarray problems |
+| **Strings** | Character processing, pattern matching, transformations |
+| **Hashing** | Fast lookups, frequency counting, deduplication |
+| **Recursion** | Breaking problems into smaller recursive calls |
+| **Sorting** | Algorithms: Bubble, Selection, Insertion, Merge, Quick, Heap |
+| **Searching** | Linear search, Binary search, and optimizations |
+| **Stack** | LIFO structure, expression evaluation, backtracking |
+| **Queue** | FIFO structure, BFS, task scheduling |
+| **Linked List** | Node-based data structure, insertion, deletion |
+| **Trees** | Binary trees, BST, AVL, traversals (Inorder, Preorder, Postorder) |
+| **Heaps** | Priority queues, heap sort, min/max heap |
+| **Graphs** | BFS, DFS, shortest paths, topological sort |
+| **Dynamic Programming** | Overlapping subproblems, memoization, optimization |
 
-## How To Run
+---
+
+## 4. ADVANCED JAVA - Professional Development
+
+| Topic | What You Learn |
+| --- | --- |
+| **Collections Framework** | `List`, `Set`, `Map`, `Queue` and their implementations |
+| **Generics** | Type-safe collections, generic classes and methods |
+| **Custom Exceptions** | Creating domain-specific exception hierarchies |
+| **File I/O** | Reading/writing files, streams, serialization |
+| **Multithreading** | Creating and managing concurrent threads |
+| **Synchronization** | Thread safety, locks, concurrent collections |
+| **Lambda Expressions** | Functional programming, concise syntax |
+| **Streams API** | Functional-style data processing and pipelines |
+| **Date & Time API** | Working with `LocalDate`, `LocalTime`, `ZonedDateTime` |
+
+---
+
+## Quick Start
+
+### How to Run
 
 Compile and run from the repository root:
 
@@ -100,10 +150,56 @@ javac Basic/LanguageBasics/HelloWorld.java
 java -cp Basic/LanguageBasics HelloWorld
 ```
 
-Or run from inside `Basic/LanguageBasics`:
+Or navigate to a specific folder:
 
 ```bash
 cd Basic/LanguageBasics
 javac HelloWorld.java
 java HelloWorld
 ```
+
+### Run Pattern Examples
+
+```bash
+cd Basic/LogicalPattern
+javac Pattern1.java
+java Pattern1
+```
+
+---
+
+## Repository Structure
+
+```
+Java-Programming/
+├── Basic/
+│   ├── LanguageBasics/          (Fundamentals: variables, operators, control flow)
+│   └── LogicalPattern/          (Pattern practice: 22 logical pattern programs)
+├── OOPs/                        (Coming Soon)
+├── DSA/                         (Coming Soon)
+├── AdvancedJava/                (Coming Soon)
+└── README.md                    (This file)
+```
+
+---
+
+## Learning Tips
+
+1. **Start with Basics** - Master the fundamentals before moving to OOPs
+2. **Practice Patterns** - Logical patterns build problem-solving skills
+3. **Understand OOPs** - Foundation for writing scalable applications
+4. **Practice DSA** - Essential for coding interviews and efficient solutions
+5. **Use Advanced Java** - Professional tools for real-world applications
+
+---
+
+## Resources
+
+- Official Java Documentation: [oracle.com/java](https://www.oracle.com/java/)
+- Java Language Guide: Explore OOP principles, design patterns, and best practices
+
+---
+
+## License
+
+This repository is open for educational purposes.
