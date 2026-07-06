@@ -1,11 +1,10 @@
-
 import java.util.Scanner;
 
-public class Pattern2 {
-  public static void PatternPrint2(int n) {
+public class Pattern15 {
+  public static void PatternPrint15(int n) {
     for (int i = 0; i < n; i++) {
-      for (int j = 0; j <= i; j++) {
-        System.out.print("*");
+      for (char ch = 'A'; ch <= 'A' + (n - i - 1); ch++) {
+        System.out.print(ch + " ");
       }
       System.out.println();
     }
@@ -13,10 +12,9 @@ public class Pattern2 {
 
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
-    System.out.print("Enter a number: ");
+    System.out.print("Enter a number:");
     int n = sc.nextInt();
-    PatternPrint2(n);
+    PatternPrint15(n);
     sc.close();
   }
-
 }

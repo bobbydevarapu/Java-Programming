@@ -1,4 +1,3 @@
-package Basic.LogicalPattern;
 
 import java.util.Scanner;
 
